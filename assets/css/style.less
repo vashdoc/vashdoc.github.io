@@ -1,0 +1,379 @@
+@font-face {
+  font-family: 'NinaCTTNormal';
+  src: url('fonts/ninactt_normal-webfont.eot');
+  src: url('fonts/ninactt_normal-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/ninactt_normal-webfont.woff') format('woff'),
+       url('fonts/ninactt_normal-webfont.ttf') format('truetype'),
+       url('fonts/ninactt_normal-webfont.svg#NinaCTTNormal') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+html,
+body { height: 100%; }
+
+.hide {display:none !important}
+
+body {
+  font-family: Georgia, "New Century Schoolbook", "Nimbus Roman No9 L", serif;
+  font-size: 18px;
+  line-height: 1;
+  color: #2c2c2c;
+  background: url('../images/background.jpg') 0 0 repeat #fafafa; }
+
+a { color: #09A75C; 
+  text-decoration: none;
+  &:hover { text-decoration: underline; } }
+
+#container {
+  margin: 0 auto 50px;
+  background: url('../images/desk.png') center top no-repeat;
+  padding: 147px 0 0 0;
+  overflow: hidden;
+  width: 940px; }
+
+#header {
+  height: 155px;
+  padding: 0 90px 10px;
+  background: url('../images/bg.png') center top repeat-y;
+  position: relative;
+  float: left;
+  width: 760px;
+  div.logo {
+    width: 600px;
+    float: left;
+    vertical-align: top;
+    a, img {
+      float: left;
+      display: block;
+      width: 167px;
+      height: 151px; }
+    h1 {
+      width: 346px;
+      height: 97px;
+      padding: 25px 42px;
+      margin: 0;
+      float: left;
+      color: #e02a15;
+      font-size: 25px;
+      line-height: 25px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      b {
+        font-size: 63px;
+        line-height: 63px;
+        font-weight: normal;
+        font-family: 'Lobster', cursive;
+        display: block;
+        color: #01a858;
+        text-align: center;
+        text-transform: none; } } }
+  div.tel {
+    width: 180px;
+    float: right;
+    font-family: 'NinaCTTNormal';
+    text-align: center;
+    font-size: 28px;
+    line-height: 42px;
+    color: #262626;
+    position: absolute;
+    right: 75px;
+    bottom: 20px;
+    em {
+      display: block;
+      font-style: normal;
+      -moz-transform: rotate(8deg);
+      -o-transform: rotate(8deg);
+      -webkit-transform: rotate(8deg);
+      transform: rotate(8deg); } } }
+
+#footer {
+  height: 90px;
+  float: left;
+  width: 790px;
+  padding: 0 75px;
+  background: url('../images/footer.png') center bottom no-repeat; }
+
+#main {
+  min-height: 700px;
+  float: left;
+  position: relative;
+  width: 770px;
+  padding: 20px 85px 25px;
+  line-height: 24px;
+  background: url('../images/bg.png') center top repeat-y;
+  div.list {
+    background: url('../images/doctors.png') 100% 100% no-repeat;
+    position: absolute;
+    width: 334px;
+    height: 391px;
+    right: 65px;
+    bottom: 15px; }
+  div.picture {
+    position: relative;
+    float: left;
+    b {
+      display: block;
+      text-indent: -9999em;
+      position: absolute;
+      &.skrepish {
+        width: 135px;
+        height: 101px;
+        background: url('../images/skrepish.png') 0 0 no-repeat;
+        bottom: 22px;
+        left: -29px; }
+      &.skrepish2 {
+        width: 85px;
+        height: 147px;
+        background: url('../images/skrepish2.png') 0 0 no-repeat;
+        bottom: -50px;
+        left: 277px;
+        } } }
+  div.article {
+    margin: 0;
+    a { color: #09A75C; 
+      text-decoration: underline;
+      &:hover { text-decoration: none; } }
+    p {
+      i { font-style: italic; }
+      b { font-weight: bold; } }
+    h2 {
+      display: inline-block;
+      position: relative;
+      clear: both;
+      padding: 2px 35px;
+      color: #151517;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 1;
+      background: #d1f6d4;
+      margin: 18px 0;
+      -moz-transform: rotate(-1.5deg);
+      -o-transform: rotate(-1.5deg);
+      -webkit-transform: rotate(-1.5deg);
+      transform: rotate(-1.5deg);
+      span {
+        display: block;
+        -moz-transform: rotate(1.5deg);
+        -o-transform: rotate(1.5deg);
+        -webkit-transform: rotate(1.5deg);
+        transform: rotate(1.5deg);
+        &.sub {
+          background: #d1f6d4;
+          position: absolute;
+          width: 220px;
+          height: 34px;
+          line-height: 34px;
+          font-size: 24px;
+          text-align: center;
+          right: -240px;
+          bottom: -10px; 
+          display: none;
+          &.medium {
+            line-height: 22px;
+            height: auto;
+            padding: 2px 0; }
+          &.small {
+            width: 210px;
+            right: -250px;
+            padding: 0 10px;
+            font-size: 12px;
+            line-height: 17px; }
+          &.show { display: block; } } } }
+      div.download {
+        width: 240px;
+        font-family: 'NinaCTTNormal';
+        text-align: center;
+        font-size: 26px;
+        line-height: 32px;
+        position: absolute;
+        right: 75px;
+        bottom: 30px;
+        -moz-transform: rotate(-8deg);
+        -o-transform: rotate(-8deg);
+        -webkit-transform: rotate(-8deg);
+        transform: rotate(-8deg);
+        a {
+          outline: 0;
+          color: #e02a15;
+          text-decoration: none;
+          &:hover { text-decoration: underline; } } }
+    h3 {
+      padding: 0 10px 10px;
+      margin: 0;
+      font-size: 24px;
+      line-height: 28px; }
+    p {
+      padding: 0 5px 20px;
+      margin: 0;
+      a.back {
+        display: block;
+        padding: 10px 0 0 0; } } }
+  div.about {
+    width: 480px;
+    div.picture {
+      b.skrepish { left: -39px; }
+      img {
+        margin: 30px 0 0 15px;
+        display: block;
+        width: 410px;
+        height: 311px; } } }
+  div.services {
+    div.textblock {
+      padding: 0 0 100px;
+      &.closed { display: none; }
+      p { padding-bottom: 15px; 
+        b { font-weight: bold; } }
+      ul + p { padding: 5px 0 15px; }
+      ul { 
+        list-style: disc;
+        font-size: 16px;
+        margin: 0 35px 10px;
+        li { padding: 0 0 5px; } } } }
+  div.contacts {
+    h2 { padding: 2px 75px 2px 35px; }
+    div.picture {
+      margin: 0 0 0 65px;
+      b.skrepish {
+        bottom: auto;
+        top: 157px;
+        left: -104px; } } }
+  div.record {
+    form {
+      width: 420px;
+      margin-bottom: -80px;
+      li {
+        margin-bottom: 10px;
+        &.half:nth-child(even) { padding-left: 40px; } } }
+    input[type="tel"],
+    input[type="text"] { width: 406px; }
+    select { width: 430px; }
+    span {
+      select { width: auto; }
+      input[type="text"] { 
+        width: 16px;
+        padding-left: 8px;
+        padding-right: 8px; } }
+    div.picture {
+      float: right;
+      img { 
+        position: relative;
+        top: 50px; } } }
+  div.doctors {
+    font-size: 16px;
+    h3 {
+      background: #d1f6d4;
+      display: inline-block;
+      padding: 0 15px;
+      height: 34px;
+      margin: 15px 0;
+      line-height: 34px;
+      font-size: 24px;
+      text-align: center; }
+    a { color: #2c2c2c; }
+    div.picture {
+      position: absolute;
+      right: 65px;
+      top: 430px;
+      bottom: auto;
+      b.skrepish2 {
+        left: 252px;
+        bottom: 86px;
+        } }
+    ul {
+      &.pressa {
+        background: url('../images/pressa.png') 0 5px no-repeat;
+        padding: 0 0 20px 90px; 
+        min-height: 65px;
+        li { 
+          padding-bottom: 5px;
+          line-height: 22px; } }
+      li { 
+        b { 
+          font-weight: bold;
+          display: block;
+          padding: 5px 0 5px; }
+        p {
+          line-height: 18px;
+          padding-bottom: 10px;
+          i { font-size: 14px; } } } } }
+  form {
+    overflow: hidden;
+    padding: 0 10px;
+    li {
+      float: left;
+      width: 100%;
+      &.half {
+        float: left;
+        width: auto;
+        select { display: inline-block; }
+        label { display: block; } } }
+    input[type="text"],
+    textarea,
+    input[type="date"],
+    input[type="time"],
+    select,
+    input[type="tel"] {
+      border: 2px solid #00A658;
+      border-radius: 15px;
+      padding: 3px 10px;
+      display: block;
+      margin: 0 0 15px;
+      &.error {
+        border-color: #ff0000; } }
+    textarea { width: 406px; }
+    span {
+      input[type="text"],
+      input[type="date"],
+      input[type="time"] { display: inline-block; } }
+    label {
+      font-size: 24px;
+      line-height: 24px;
+      padding:  0 0 6px;
+      &.error {
+        font-size: 18px;
+        line-height: 18px;
+        color: #FF0000;
+        position: relative;
+        top: -15px; } } }
+  #doctors {
+    overflow: hidden;
+    padding: 15px 0 15px 15px;
+    border: 5px solid #d1f6d4;
+    border-radius: 30px;
+    margin: -50px 10px 0;
+    width: 550px;
+    table {
+      border-width: 1px;
+      td {
+        &.wide { white-space: nowrap; }
+        text-align: center; } } } }
+
+div.aside {
+  float: right;
+  width: 300px;
+  position: relative;
+  right: -49px;
+  margin: 0 0 0 30px;
+  ul {
+    li {
+      width: 198px;
+      text-align: center;
+      padding: 0 50px 15px 50px;
+      background: url('../images/lenta.png') 0 0 no-repeat;
+      a {
+        display: block;
+        line-height: 44px;
+        font-size: 28px;
+        font-family: 'Lobster', cursive;
+        font-weight: normal;
+        text-decoration: none;
+        color: #00a658;
+        text-transform: lowercase; }
+      &.current,
+      &:hover {
+        a { color: #ff0000; }
+      }
+    }
+  }
+}

@@ -1,0 +1,498 @@
+@font-face {
+  font-family: 'NinaCTTNormal';
+  src: url('fonts/ninactt_normal-webfont.eot');
+  src: url('fonts/ninactt_normal-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/ninactt_normal-webfont.woff') format('woff'), url('fonts/ninactt_normal-webfont.ttf') format('truetype'), url('fonts/ninactt_normal-webfont.svg#NinaCTTNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+  height: 100%;
+}
+.hide {
+  display: none !important;
+}
+body {
+  font-family: Georgia, "New Century Schoolbook", "Nimbus Roman No9 L", serif;
+  font-size: 18px;
+  line-height: 1;
+  color: #2c2c2c;
+  background: url('../images/background.jpg') 0 0 repeat #fafafa;
+}
+a {
+  color: #09A75C;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#container {
+  margin: 0 auto 50px;
+  background: url('../images/desk.png') center top no-repeat;
+  padding: 147px 0 0 0;
+  overflow: hidden;
+  width: 940px;
+}
+#header {
+  height: 155px;
+  padding: 0 90px 10px;
+  background: url('../images/bg.png') center top repeat-y;
+  position: relative;
+  float: left;
+  width: 760px;
+}
+#header div.logo {
+  width: 600px;
+  float: left;
+  vertical-align: top;
+}
+#header div.logo a, #header div.logo img {
+  float: left;
+  display: block;
+  width: 167px;
+  height: 151px;
+}
+#header div.logo h1 {
+  width: 346px;
+  height: 97px;
+  padding: 25px 42px;
+  margin: 0;
+  float: left;
+  color: #e02a15;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+#header div.logo h1 b {
+  font-size: 63px;
+  line-height: 63px;
+  font-weight: normal;
+  font-family: 'Lobster', cursive;
+  display: block;
+  color: #01a858;
+  text-align: center;
+  text-transform: none;
+}
+#header div.logo p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: -20px;
+	padding-top: 15px;
+  color: #01a858;
+}
+#header div.tel {
+  width: 180px;
+  float: right;
+  font-family: 'NinaCTTNormal';
+  text-align: center;
+  font-size: 28px;
+  line-height: 42px;
+  color: #262626;
+  position: absolute;
+  right: 75px;
+  bottom: 20px;
+}
+#header div.tel em {
+  display: block;
+  font-style: normal;
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -webkit-transform: rotate(8deg);
+  transform: rotate(8deg);
+}
+#footer {
+  height: 90px;
+  float: left;
+  width: 790px;
+  padding: 0 75px;
+  background: url('../images/footer.png') center bottom no-repeat;
+}
+#main {
+  min-height: 700px;
+  float: left;
+  position: relative;
+  width: 770px;
+  padding: 20px 85px 25px;
+  line-height: 24px;
+  background: url('../images/bg.png') center top repeat-y;
+}
+#main div.list {
+  background: url('../images/doctors.png') 100% 100% no-repeat;
+  position: absolute;
+  width: 334px;
+  height: 391px;
+  right: 65px;
+  bottom: 15px;
+}
+#main div.picture {
+  position: relative;
+  float: left;
+}
+#main div.picture b {
+  display: block;
+  text-indent: -9999em;
+  position: absolute;
+}
+#main div.picture b.skrepish {
+  width: 135px;
+  height: 101px;
+  background: url('../images/skrepish.png') 0 0 no-repeat;
+  bottom: 22px;
+  left: -29px;
+}
+#main div.picture b.skrepish2 {
+  width: 85px;
+  height: 147px;
+  background: url('../images/skrepish2.png') 0 0 no-repeat;
+  bottom: -50px;
+  left: 277px;
+}
+#main div.article {
+  margin: 0;
+}
+#main div.article a {
+  color: #09A75C;
+  text-decoration: underline;
+}
+#main div.article a:hover {
+  text-decoration: none;
+}
+#main div.article p i {
+  font-style: italic;
+}
+#main div.article p b {
+  font-weight: bold;
+}
+#main div.article h2 {
+  display: inline-block;
+  position: relative;
+  clear: both;
+  padding: 2px 35px;
+  color: #151517;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 1;
+  background: #d1f6d4;
+  margin: 18px 0;
+  -moz-transform: rotate(-1.5deg);
+  -o-transform: rotate(-1.5deg);
+  -webkit-transform: rotate(-1.5deg);
+  transform: rotate(-1.5deg);
+}
+#main div.article h2 span {
+  display: block;
+  -moz-transform: rotate(1.5deg);
+  -o-transform: rotate(1.5deg);
+  -webkit-transform: rotate(1.5deg);
+  transform: rotate(1.5deg);
+}
+#main div.article h2 span.sub {
+  background: #d1f6d4;
+  position: absolute;
+  width: 220px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 24px;
+  text-align: center;
+  right: -240px;
+  bottom: -10px;
+  display: none;
+}
+#main div.article h2 span.sub.medium {
+  line-height: 22px;
+  height: auto;
+  padding: 2px 0;
+}
+#main div.article h2 span.sub.small {
+  width: 210px;
+  right: -250px;
+  padding: 0 10px;
+  font-size: 12px;
+  line-height: 17px;
+}
+#main div.article h2 span.sub.show {
+  display: block;
+}
+#main div.article div.download {
+  width: 240px;
+  font-family: 'NinaCTTNormal';
+  text-align: center;
+  font-size: 26px;
+  line-height: 32px;
+  position: absolute;
+  right: 75px;
+  bottom: 30px;
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+#main div.article div.download a {
+  outline: 0;
+  color: #e02a15;
+  text-decoration: none;
+}
+#main div.article div.download a:hover {
+  text-decoration: underline;
+}
+#main div.article h3 {
+  padding: 0 10px 10px;
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+#main div.article p {
+  padding: 0 5px 20px;
+  margin: 0;
+}
+#main div.article p a.back {
+  display: block;
+  padding: 10px 0 0 0;
+}
+#main div.about {
+  width: 480px;
+}
+#main div.about div.picture b.skrepish {
+  left: -39px;
+}
+#main div.about div.picture img {
+  margin: 30px 0 0 15px;
+  display: block;
+  width: 410px;
+  height: 311px;
+}
+#main div.services div.textblock {
+  padding: 0 0 50px;
+}
+#main div.services div.textblock.closed {
+  display: none;
+}
+#main div.services div.textblock p {
+  padding-bottom: 15px;
+}
+#main div.services div.textblock p b {
+  font-weight: bold;
+}
+#main div.services div.textblock ul + p {
+  padding: 5px 0 15px;
+}
+#main div.services div.textblock ul {
+  list-style: disc;
+  font-size: 16px;
+  margin: 0 35px 10px;
+}
+#main div.services div.textblock ul li {
+  padding: 0 0 5px;
+}
+#main div.services div.textblock ul.address {
+  list-style: none;
+  margin: 20px 35px 10px;
+}
+#main div.services div.textblock ul.address h3{
+	font-weight: bold;
+	font-size: 16px;
+}
+#main div.contacts h2 {
+  padding: 2px 75px 2px 35px;
+}
+#main div.contacts div.picture {
+  margin: 0 0 0 65px;
+}
+#main div.contacts div.picture b.skrepish {
+  bottom: auto;
+  top: 157px;
+  left: -104px;
+}
+#main div.record form {
+  width: 420px;
+  margin-bottom: -80px;
+}
+#main div.record form li {
+  margin-bottom: 10px;
+}
+#main div.record form li.half:nth-child(even) {
+  padding-left: 40px;
+}
+#main div.record input[type="tel"], #main div.record input[type="text"] {
+  width: 406px;
+}
+#main div.record select {
+  width: 430px;
+}
+#main div.record span select {
+  width: auto;
+}
+#main div.record span input[type="text"] {
+  width: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#main div.record div.picture {
+  float: right;
+}
+#main div.record div.picture img {
+  position: relative;
+  top: 50px;
+}
+#main div.doctors {
+  font-size: 16px;
+}
+#main div.doctors h3 {
+  background: #d1f6d4;
+  display: inline-block;
+  padding: 0 15px;
+  height: 34px;
+  margin: 15px 0;
+  line-height: 34px;
+  font-size: 24px;
+  text-align: center;
+}
+#main div.doctors a {
+  color: #2c2c2c;
+}
+#main div.doctors div.picture {
+  position: absolute;
+  right: 65px;
+  top: 430px;
+  bottom: auto;
+}
+#main div.doctors div.picture b.skrepish2 {
+  left: 252px;
+  bottom: 86px;
+}
+#main div.doctors ul.pressa {
+  background: url('../images/pressa.png') 0 5px no-repeat;
+  padding: 0 0 20px 90px;
+  min-height: 65px;
+}
+#main div.doctors ul.pressa li {
+  padding-bottom: 5px;
+  line-height: 22px;
+}
+#main div.doctors ul li b {
+  font-weight: bold;
+  display: block;
+  padding: 5px 0 5px;
+}
+#main div.doctors ul li p {
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+#main div.doctors ul li p i {
+  font-size: 14px;
+}
+#main form {
+  overflow: hidden;
+  padding: 0 10px;
+}
+#main form li {
+  float: left;
+  width: 100%;
+}
+#main form li.half {
+  float: left;
+  width: auto;
+}
+#main form li.half select {
+  display: inline-block;
+}
+#main form li.half label {
+  display: block;
+}
+#main form input[type="text"],
+#main form textarea,
+#main form input[type="date"],
+#main form input[type="time"],
+#main form select,
+#main form input[type="tel"] {
+  border: 2px solid #00A658;
+  border-radius: 15px;
+  padding: 3px 10px;
+  display: block;
+  margin: 0 0 15px;
+}
+#main form input[type="text"].error,
+#main form textarea.error,
+#main form input[type="date"].error,
+#main form input[type="time"].error,
+#main form select.error,
+#main form input[type="tel"].error {
+  border-color: #ff0000;
+}
+#main form textarea {
+  width: 406px;
+}
+#main form span input[type="text"], #main form span input[type="date"], #main form span input[type="time"] {
+  display: inline-block;
+}
+#main form label {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 0 0 6px;
+}
+#main form label.error {
+  font-size: 18px;
+  line-height: 18px;
+  color: #FF0000;
+  position: relative;
+  top: -15px;
+}
+#main #doctors {
+  overflow: hidden;
+  padding: 15px 0 15px 15px;
+  border: 5px solid #d1f6d4;
+  border-radius: 30px;
+  margin: -50px 10px 0;
+  width: 550px;
+}
+#main #doctors table {
+  border-width: 1px;
+}
+#main #doctors table td {
+  text-align: center;
+}
+#main #doctors table td.wide {
+  white-space: nowrap;
+}
+div.aside {
+  float: right;
+  width: 300px;
+  position: relative;
+  right: -49px;
+  margin: 0 0 0 30px;
+}
+div.aside ul li {
+  width: 198px;
+  text-align: center;
+  padding: 0 50px 15px 50px;
+  background: url('../images/lenta.png') 0 0 no-repeat;
+}
+div.aside ul li a {
+  display: block;
+  line-height: 44px;
+  font-size: 28px;
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+  text-decoration: none;
+  color: #00a658;
+  text-transform: lowercase;
+}
+div.aside ul li.current a, div.aside ul li:hover a {
+  color: #ff0000;
+}
+div#schedule {
+/*	width: 65%; */
+	padding-bottom: 25px;
+}
+div#schedule table{
+	width: 100%;
+	position: relative;
+}
+div#schedule table td{
+	border: 1px solid #d3d3d3;
+	margin: auto;
+	vertical-align: middle;
+	padding: 7px 10px;
+}
