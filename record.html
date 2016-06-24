@@ -320,15 +320,15 @@ action="https://vashdoctor.wufoo.com/forms/m7x3r3/#public">
               <li id="foli4" class="date eurodate notranslate half">
                 <label class="desc" id="title4" for="Field4">Дата:</label>
                 <span>
-                  <input id="Field4-1" name="Field4-1" type="text" class="field text" value="27" size="2" maxlength="2" tabindex="3" required />
+                  <input id="Field4-1" name="Field4-1" type="text" class="field text" value="" size="2" maxlength="2" tabindex="3" required />
                 </span>
                 <span class="symbol">/</span>
                 <span>
-                  <input id="Field4-2" name="Field4-2" type="text" class="field text" value="05" size="2" maxlength="2" tabindex="4" required />
+                  <input id="Field4-2" name="Field4-2" type="text" class="field text" value="" size="2" maxlength="2" tabindex="4" required />
                 </span>
                 <span class="symbol">/</span>
                 <span>
-                  <input id="Field4" name="Field4" type="text" class="field text" value="2016" size="4" maxlength="4" tabindex="5" required style="width: 30px"/>
+                  <input id="Field4" name="Field4" type="text" class="field text" value="" size="4" maxlength="4" tabindex="5" required style="width: 30px"/>
                 </span>
               </li>
               <li id="foli5" class="time notranslate half">
@@ -378,6 +378,10 @@ action="https://vashdoctor.wufoo.com/forms/m7x3r3/#public">
       <script>
         jQuery(document).ready(function() {
           $("#form2").validate();
+		  var mdate = new Date();
+		  $("#Field4-1").attr("value", mdate.getDate());
+		  $("#Field4-2").attr("value", mdate.getMonth()+1);
+		  $("#Field4").attr("value", mdate.getFullYear());
         });
     </script>
   </body>
